@@ -1,3 +1,3 @@
-module github.com/molikatty/mlock
+module github.com/molikatty/spinlock
 
 go 1.20

@@ -1,5 +1,5 @@
 // https://github.com/panjf2000/ants/blob/88d2454bbb85fc005ae0eea4f33d3cf644554aa9/internal/spinlock.go#L17
-package mlock
+package spinlock
 
 import (
 	"runtime"
