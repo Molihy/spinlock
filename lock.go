@@ -28,6 +28,6 @@ func (sl *spinLock) Unlock() {
 	atomic.StoreUint32((*uint32)(sl), 0)
 }
 
-func NewSpinLock() sync.Locker {
+func NewLock() sync.Locker {
 	return new(spinLock)
 }
